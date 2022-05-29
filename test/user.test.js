@@ -110,6 +110,7 @@ describe("Autenticação", () => {
         .catch(err => {
             console.log(err)
             fail(err)
+            
         })
     })
 })
